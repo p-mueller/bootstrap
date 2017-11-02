@@ -1,0 +1,19 @@
+{
+  "name": "ui-bootstrap",
+  "main": [
+    "dist/ui-bootstrap-tpls-0.13.4.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
