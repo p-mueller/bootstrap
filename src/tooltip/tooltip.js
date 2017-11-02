@@ -146,6 +146,7 @@ angular.module('ui.bootstrap.tooltip', ['ui.bootstrap.position', 'ui.bootstrap.b
 
                   ttCss.width = ttBox.width + 'px';
                   ttCss.height = ttBox.height + 'px';
+                  ttCss.opacity = '';
 
                   // Now set the calculated positioning and size.
                   tooltip.css(ttCss);
@@ -214,6 +215,7 @@ angular.module('ui.bootstrap.tooltip', ['ui.bootstrap.position', 'ui.bootstrap.b
               }
 
               createTooltip();
+              tooltip.css({ opacity: 0.01 });
 
               // And show the tooltip.
               ttScope.isOpen = true;
