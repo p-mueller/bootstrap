@@ -13,6 +13,10 @@
     "node_modules",
     "bower_components",
     "test",
+    "src",
+    "misc",
+    "template",
+    "docs",
     "tests"
   ],
   "private": true
